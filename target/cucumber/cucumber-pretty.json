@@ -4,3 +4,12 @@ Feature: Google Search
     [32mGiven [0m[32mI open a browser[0m                    [90m# StepDefinitions.i_open_a_browser()[0m
     [32mAnd [0m[32mI navigate to google page[0m             [90m# StepDefinitions.i_navigate_to_google_page()[0m
     [32mThen [0m[32mI validate the search tesxt field[0m    [90m# StepDefinitions.i_validate_the_search_tesxt_field()[0m
+
+  Scenario: Title of your scenario                 [90m# Sample.feature:9[0m
+    [32mGiven [0m[32mI want to write a step with precondition[0m [90m# Test2.i_want_to_write_a_step_with_precondition()[0m
+    [32mAnd [0m[32msome other precondition[0m                    [90m# Test2.some_other_precondition()[0m
+    [32mWhen [0m[32mI complete action[0m                         [90m# Test2.i_complete_action()[0m
+    [32mAnd [0m[32msome other action[0m                          [90m# Test2.some_other_action()[0m
+    [32mAnd [0m[32myet another action[0m                         [90m# Test2.yet_another_action()[0m
+    [32mThen [0m[32mI validate the outcomes[0m                   [90m# Test2.i_validate_the_outcomes()[0m
+    [32mAnd [0m[32mcheck more outcomes[0m                        [90m# Test2.check_more_outcomes()[0m

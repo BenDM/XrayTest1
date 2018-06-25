@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.096259">
-<testcase classname="Google Search" name="Validate google search text field" time="0.096259">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.088759">
+<testcase classname="Google Search" name="Validate google search text field" time="0.088585">
 <system-out><![CDATA[Given I open a browser......................................................passed
 And I navigate to google page...............................................passed
 Then I validate the search tesxt field......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Google Search" name="Title of your scenario" time="0.000174">
+<system-out><![CDATA[Given I want to write a step with precondition..............................passed
+And some other precondition.................................................passed
+When I complete action......................................................passed
+And some other action.......................................................passed
+And yet another action......................................................passed
+Then I validate the outcomes................................................passed
+And check more outcomes.....................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
