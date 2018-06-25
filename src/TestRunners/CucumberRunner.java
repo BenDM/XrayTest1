@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 glue = "Test", plugin = {
 		"json:target/cucumber/cucumber.json",
 		"pretty:target/cucumber/cucumber-pretty.json",
-		"junit:target/cucumber/cucumber-result.xml"})
+		"junit:target/cucumber/cucumber.xml"})
 
 public class CucumberRunner {
 

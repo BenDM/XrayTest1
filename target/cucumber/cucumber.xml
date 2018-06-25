@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.090109">
-<testcase classname="Google Search" name="Validate google search text field" time="0.090109">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.096259">
+<testcase classname="Google Search" name="Validate google search text field" time="0.096259">
 <system-out><![CDATA[Given I open a browser......................................................passed
 And I navigate to google page...............................................passed
 Then I validate the search tesxt field......................................passed
