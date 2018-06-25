@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.088759">
-<testcase classname="Google Search" name="Validate google search text field" time="0.088585">
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="6.759567">
+<testcase classname="Google Search" name="Validate google search text field" time="6.757488">
 <system-out><![CDATA[Given I open a browser......................................................passed
 And I navigate to google page...............................................passed
 Then I validate the search tesxt field......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Google Search" name="Title of your scenario" time="0.000174">
-<system-out><![CDATA[Given I want to write a step with precondition..............................passed
+<testcase classname="Google Search" name="Title of your scenario" time="0.002079">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at Test.Test2.i_complete_action(Test2.java:23)&#13;&#10;&#9;at ✽.When I complete action(Sample.feature:12)&#13;&#10;"><![CDATA[Given I want to write a step with precondition..............................passed
 And some other precondition.................................................passed
-When I complete action......................................................passed
-And some other action.......................................................passed
-And yet another action......................................................passed
-Then I validate the outcomes................................................passed
-And check more outcomes.....................................................passed
-]]></system-out>
+When I complete action......................................................failed
+And some other action.......................................................skipped
+And yet another action......................................................skipped
+Then I validate the outcomes................................................skipped
+And check more outcomes.....................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at Test.Test2.i_complete_action(Test2.java:23)
+	at ✽.When I complete action(Sample.feature:12)
+]]></failure>
 </testcase>
 </testsuite>

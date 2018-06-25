@@ -12,37 +12,37 @@
         "steps": [
           {
             "result": {
-              "duration": 88552262,
+              "duration": 5549105208,
               "status": "passed"
             },
             "line": 4,
             "name": "I open a browser",
             "match": {
-              "location": "StepDefinitions.i_open_a_browser()"
+              "location": "GoogleSearch.i_open_a_browser()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 21899,
+              "duration": 1107111896,
               "status": "passed"
             },
             "line": 5,
             "name": "I navigate to google page",
             "match": {
-              "location": "StepDefinitions.i_navigate_to_google_page()"
+              "location": "GoogleSearch.i_navigate_to_google_page()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 10949,
+              "duration": 101270712,
               "status": "passed"
             },
             "line": 6,
             "name": "I validate the search tesxt field",
             "match": {
-              "location": "StepDefinitions.i_validate_the_search_tesxt_field()"
+              "location": "GoogleSearch.i_validate_the_search_tesxt_field()"
             },
             "keyword": "Then "
           }
@@ -58,7 +58,7 @@
         "steps": [
           {
             "result": {
-              "duration": 46820,
+              "duration": 34360,
               "status": "passed"
             },
             "line": 10,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 17369,
+              "duration": 18124,
               "status": "passed"
             },
             "line": 11,
@@ -82,8 +82,9 @@
           },
           {
             "result": {
-              "duration": 12461,
-              "status": "passed"
+              "duration": 2026856,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat Test.Test2.i_complete_action(Test2.java:23)\r\n\tat ✽.When I complete action(Sample.feature:12)\r\n",
+              "status": "failed"
             },
             "line": 12,
             "name": "I complete action",
@@ -94,8 +95,7 @@
           },
           {
             "result": {
-              "duration": 61168,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "some other action",
@@ -106,8 +106,7 @@
           },
           {
             "result": {
-              "duration": 13215,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 14,
             "name": "yet another action",
@@ -118,8 +117,7 @@
           },
           {
             "result": {
-              "duration": 13215,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "I validate the outcomes",
@@ -130,8 +128,7 @@
           },
           {
             "result": {
-              "duration": 9817,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "check more outcomes",
