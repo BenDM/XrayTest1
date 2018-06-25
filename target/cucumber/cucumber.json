@@ -1,0 +1,57 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate google search text field",
+        "description": "",
+        "id": "google-search;validate-google-search-text-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 100753426,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat Test.StepDefinitions.i_open_a_browser(StepDefinitions.java:13)\r\n\tat ✽.Given I open a browser(Sample.feature:4)\r\n",
+              "status": "pending"
+            },
+            "line": 4,
+            "name": "I open a browser",
+            "match": {
+              "location": "StepDefinitions.i_open_a_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I navigate to google page",
+            "match": {
+              "location": "StepDefinitions.i_navigate_to_google_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I validate the search tesxt field",
+            "match": {
+              "location": "StepDefinitions.i_validate_the_search_tesxt_field()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google Search",
+    "description": "",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "Sample.feature"
+  }
+]
