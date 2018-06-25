@@ -1,10 +1,6 @@
 Feature: Google Search
 
   Scenario: Validate google search text field [90m# Sample.feature:3[0m
-    [33mGiven [0m[33mI open a browser[0m                    [90m# StepDefinitions.i_open_a_browser()[0m
-      [31mcucumber.api.PendingException: TODO: implement me
-      	at Test.StepDefinitions.i_open_a_browser(StepDefinitions.java:13)
-      	at ✽.Given I open a browser(Sample.feature:4)
-      [0m
-    [36mAnd [0m[36mI navigate to google page[0m             [90m# StepDefinitions.i_navigate_to_google_page()[0m
-    [36mThen [0m[36mI validate the search tesxt field[0m    [90m# StepDefinitions.i_validate_the_search_tesxt_field()[0m
+    [32mGiven [0m[32mI open a browser[0m                    [90m# StepDefinitions.i_open_a_browser()[0m
+    [32mAnd [0m[32mI navigate to google page[0m             [90m# StepDefinitions.i_navigate_to_google_page()[0m
+    [32mThen [0m[32mI validate the search tesxt field[0m    [90m# StepDefinitions.i_validate_the_search_tesxt_field()[0m

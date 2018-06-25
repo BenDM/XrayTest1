@@ -12,9 +12,8 @@
         "steps": [
           {
             "result": {
-              "duration": 100753426,
-              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat Test.StepDefinitions.i_open_a_browser(StepDefinitions.java:13)\r\n\tat ✽.Given I open a browser(Sample.feature:4)\r\n",
-              "status": "pending"
+              "duration": 89733337,
+              "status": "passed"
             },
             "line": 4,
             "name": "I open a browser",
@@ -25,7 +24,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 13593,
+              "status": "passed"
             },
             "line": 5,
             "name": "I navigate to google page",
@@ -36,7 +36,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 11327,
+              "status": "passed"
             },
             "line": 6,
             "name": "I validate the search tesxt field",
