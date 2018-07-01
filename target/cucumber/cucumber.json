@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5549105208,
+              "duration": 5390576404,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 1107111896,
+              "duration": 1122289864,
               "status": "passed"
             },
             "line": 5,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 101270712,
+              "duration": 103554662,
               "status": "passed"
             },
             "line": 6,
@@ -47,103 +47,12 @@
             "keyword": "Then "
           }
         ]
-      },
-      {
-        "line": 9,
-        "name": "Title of your scenario",
-        "description": "",
-        "id": "google-search;title-of-your-scenario",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 34360,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I want to write a step with precondition",
-            "match": {
-              "location": "Test2.i_want_to_write_a_step_with_precondition()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 18124,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "some other precondition",
-            "match": {
-              "location": "Test2.some_other_precondition()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2026856,
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat Test.Test2.i_complete_action(Test2.java:23)\r\n\tat ✽.When I complete action(Sample.feature:12)\r\n",
-              "status": "failed"
-            },
-            "line": 12,
-            "name": "I complete action",
-            "match": {
-              "location": "Test2.i_complete_action()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "some other action",
-            "match": {
-              "location": "Test2.some_other_action()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 14,
-            "name": "yet another action",
-            "match": {
-              "location": "Test2.yet_another_action()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 15,
-            "name": "I validate the outcomes",
-            "match": {
-              "location": "Test2.i_validate_the_outcomes()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 16,
-            "name": "check more outcomes",
-            "match": {
-              "location": "Test2.check_more_outcomes()"
-            },
-            "keyword": "And "
-          }
-        ]
       }
     ],
     "name": "Google Search",
     "description": "",
     "id": "google-search",
     "keyword": "Feature",
-    "uri": "Sample.feature"
+    "uri": "GoogleSearch.feature"
   }
 ]
