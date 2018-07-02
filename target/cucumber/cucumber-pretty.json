@@ -9,7 +9,6 @@ Feature: Regeln
   Scenario:                                  [90m# GoogleSearch.feature:9[0m
     [32mGiven [0m[32mIch bin als Admin eingeloggt[0m       [90m# GoogleSearch.ich_bin_als_Admin_eingeloggt()[0m
     [32mGiven [0m[32mIch rufe die Regeln auf[0m            [90m# GoogleSearch.ich_rufe_die_Regeln_auf()[0m
-    [32mAnd [0m[32mIch rufe die Maske (Aendern) auf[0m     [90m# GoogleSearch.ich_rufe_die_Maske_Aendern_auf()[0m
     [32mWhen [0m[32mIch aendere die Daten[0m               [90m# GoogleSearch.ich_aendere_die_Daten()[0m
     [32mAnd [0m[32mIch klicke Speichern[0m                 [90m# GoogleSearch.ich_klicke_Speichern()[0m
     [32mThen [0m[32mIch sehe die Uebersicht Regeln[0m      [90m# GoogleSearch.ich_sehe_die_Uebersicht_Regeln()[0m

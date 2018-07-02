@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="5.66006">
-<testcase classname="Regeln" name="" time="5.66006">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.097284">
+<testcase classname="Regeln" name="" time="0.097284">
 <system-out><![CDATA[Given Ich bin als Admin eingeloggt..........................................passed
 Given Ich rufe die Regeln auf...............................................passed
-And Ich rufe die Maske (Aendern) auf........................................passed
 When Ich aendere die Daten..................................................passed
 And Ich klicke Speichern....................................................passed
 Then Ich sehe die Uebersicht Regeln.........................................passed

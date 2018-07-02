@@ -13,18 +13,18 @@ public class Hook {
 
 	@BeforeClass
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//divers//chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+//		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//divers//chromedriver.exe");
+//		driver = new ChromeDriver();
+//		driver.manage().window().maximize();
+//		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
 	@AfterClass
 	public void tearDown() {
-		driver.quit();
+//		driver.quit();
 	}
 
-	public static WebDriver getDriver() {
-		return driver;
-	}
+//	public static WebDriver getDriver() {
+////		return driver;
+//	}
 }
