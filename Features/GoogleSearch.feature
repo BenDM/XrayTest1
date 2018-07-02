@@ -1,15 +1,17 @@
-Feature:
+#Feature:
+#
+  #Scenario: Validate google search text field
+    #Given I open a browser
+    #And I navigate to google page
+    #Then I validate the search tesxt field
+Feature: Regeln
 
-  Scenario: Validate google search text field
-    Given I open a browser
-    And I navigate to google page
-    Then I validate the search tesxt field
-  #Scenario: Title of your scenario
-    #Given I want to write a step with precondition
-    #And some other precondition
-    #When I complete action
-    #And some other action
-    #And yet another action
-    #Then I validate the outcomes
-    #And check more outcomes
-    #
+  Scenario:
+    Given Ich bin als Admin eingeloggt
+    Given Ich rufe die Regeln auf
+    And Ich rufe die Maske (Aendern) auf
+    When Ich aendere die Daten
+    And Ich klicke Speichern
+    Then Ich sehe die Uebersicht Regeln
+    And Die geaenderte Regeln ist selektiert
+    And Die geaenderte Daten sind vorhanden
