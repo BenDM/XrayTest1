@@ -1,4 +1,4 @@
-Feature: Google Search
+Feature:
 
   Scenario: Validate google search text field
     Given I open a browser
