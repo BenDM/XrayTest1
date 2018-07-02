@@ -1,57 +1,83 @@
 [
   {
-    "line": 1,
-    "elements": [
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Feature:"
+      },
+      {
+        "line": 2,
+        "value": "#"
+      },
       {
         "line": 3,
-        "name": "Validate google search text field",
+        "value": "#Scenario: Validate google search text field"
+      },
+      {
+        "line": 4,
+        "value": "#Given I open a browser"
+      },
+      {
+        "line": 5,
+        "value": "#And I navigate to google page"
+      },
+      {
+        "line": 6,
+        "value": "#Then I validate the search tesxt field"
+      }
+    ],
+    "line": 7,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Regeln aendern",
         "description": "",
-        "id": ";validate-google-search-text-field",
+        "id": "regeln;regeln-aendern",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 104077235,
+              "duration": 94865009,
               "status": "passed"
             },
-            "line": 4,
-            "name": "I open a browser",
+            "line": 10,
+            "name": "Ich rufe die Regeln auf",
             "match": {
-              "location": "GoogleSearch.i_open_a_browser()"
+              "location": "GoogleSearch.ich_rufe_die_Regeln_auf()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 14726,
+              "duration": 18502,
               "status": "passed"
             },
-            "line": 5,
-            "name": "I navigate to google page",
+            "line": 11,
+            "name": "Ich aendere die Daten",
             "match": {
-              "location": "GoogleSearch.i_navigate_to_google_page()"
+              "location": "GoogleSearch.ich_aendere_die_Daten()"
             },
-            "keyword": "And "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 10572,
+              "duration": 16991,
               "status": "passed"
             },
-            "line": 6,
-            "name": "I validate the search tesxt field",
+            "line": 12,
+            "name": "Ich sehe die Uebersicht Regeln",
             "match": {
-              "location": "GoogleSearch.i_validate_the_search_tesxt_field()"
+              "location": "GoogleSearch.ich_sehe_die_Uebersicht_Regeln()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "",
+    "name": "Regeln",
     "description": "",
-    "id": "",
+    "id": "regeln",
     "keyword": "Feature",
     "uri": "GoogleSearch.feature"
   }
