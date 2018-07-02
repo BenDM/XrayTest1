@@ -6,11 +6,7 @@
     #Then I validate the search tesxt field
 Feature: Regeln
 
-  Scenario:
-    Given Ich bin als Admin eingeloggt
+  Scenario: 
     Given Ich rufe die Regeln auf
     When Ich aendere die Daten
-    And Ich klicke Speichern
     Then Ich sehe die Uebersicht Regeln
-    And Die geaenderte Regeln ist selektiert
-    And Die geaenderte Daten sind vorhanden
