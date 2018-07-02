@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.094962">
-<testcase classname="Regeln" name="" time="0.094962">
-<system-out><![CDATA[Given Ich rufe die Regeln auf...............................................passed
-When Ich aendere die Daten..................................................passed
-Then Ich sehe die Uebersicht Regeln.........................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.104103">
+<testcase classname="" name="Validate google search text field" time="0.104103">
+<system-out><![CDATA[Given I open a browser......................................................passed
+And I navigate to google page...............................................passed
+Then I validate the search tesxt field......................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
