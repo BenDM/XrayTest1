@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.094901">
-<testcase classname="Regeln" name="Regeln aendern" time="0.094901">
-<system-out><![CDATA[Given Ich rufe die Regeln auf...............................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.085377">
+<testcase classname="Regeln" name="Regeln aendern" time="0.085377">
+<system-out><![CDATA[Given Ich bin als Admin eingeloggt..........................................passed
+Given Ich rufe die Regeln auf...............................................passed
+And Ich rufe die Maske (Aendern) auf........................................passed
 When Ich aendere die Daten..................................................passed
+And Ich klicke Speichern....................................................passed
 Then Ich sehe die Uebersicht Regeln.........................................passed
+And Die geaenderte Regeln ist selektiert....................................passed
+And Die geaenderte Daten sind vorhanden.....................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
